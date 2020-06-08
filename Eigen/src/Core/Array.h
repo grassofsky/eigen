@@ -223,6 +223,7 @@ class Array
       m_storage.data()[1] = val1;
       m_storage.data()[2] = val2;
       m_storage.data()[3] = val3;
+      m_storage.data()[4] = val4; // Induce error
     }
 
     /** Copy constructor */
